@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: hsl(221, 100%, 96%);
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .container-first {
+        background-color: hsl(248, 98%, 62%);
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        color: hsl(221, 100%, 96%);
+        border-radius: 20px;
+      }
+      .number {
+        width: 50px;
+        background-color: hsl(257, 85%, 45%);
+        padding: 50px;
+        border-radius: 60%;
+        color: rgb(210, 210, 255);
+        height: 50px;
+      }
+      .numbersev {
+        margin-top: -15px;
+        margin-left: -10px;
+        color: white;
+      }
+      .numberhun {
+        margin-top: -45px;
+        margin-left: 2px;
+        font-size: 13px;
+      }
+      h2 {
+        margin-top: -20px;
+        font-size: 20px;
+        color: rgb(209, 209, 255);
+      }
+      h3 {
+        font-size: 25px;
+      }
+      .paragraph {
+        width: 200px;
+        text-align: center;
+        margin-top: -5px;
+        color: rgb(190, 190, 248);
+      }
+      .container-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        background-color: white;
+        height: 400px;
+        border-radius: 0px 12px 12px 0px;
+        font-size: 19px;
+      }
+
+      .reaction {
+        background-color: hsla(0, 100%, 67%, 0.138);
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+      .memory {
+        background-color: rgba(251, 255, 0, 0.161);
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+      .verbal {
+        background-color: rgba(59, 236, 59, 0.113);
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+      .visual {
+        background-color: rgba(67, 67, 255, 0.079);
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+      .generalwords {
+        font-size: 17px;
+        margin-top: -24px;
+      }
+      button {
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        pad: 20px;
+        border-radius: 25px;
+        width: 225px;
+        height: 50px;
+        margin-top: 35px;
+        border: none;
+        font-size: 15px;
+        margin-top: 20px;
+      }
+      .numm {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-first">
+        <h2>Your Result</h2>
+        <div class="number">
+          <p class="numbersev" style="font-size: 50px"><b>76</b></p>
+          <p class="numberhun">of 100</p>
+        </div>
+        <h3>Great</h3>
+        <p class="paragraph">
+          You scored higher than 65% of the people who have taken thic test
+        </p>
+      </div>
+      <div class="container-second">
+        <p style="margin-left: -190px"><b>Summary</b></p>
+        <div class="generalwords">
+          <div class="reaction">
+            <div class="reacticon">
+              <img src="assets/images/icon-reaction.svg" />
+              <span class="" style="color: hsl(0, 100%, 67%)">Reaction</span>
+            </div>
+            <span>80<span style="color: rgba(0, 0, 0, 0.413)">/100</span></span>
+          </div>
+          <div class="memory">
+            <div class="reacticon">
+              <img src="assets/images/icon-memory.svg" />
+              <span class="reacword" style="color: rgb(222, 167, 2)"
+                >Memory</span
+              >
+            </div>
+            <span>92<span style="color: rgba(0, 0, 0, 0.413)">/100</span></span>
+          </div>
+          <div class="verbal">
+            <div class="reacticon">
+              <img src="assets/images/icon-verbal.svg" />
+              <span style="color: rgb(2, 200, 134)">Verbal</span>
+            </div>
+            <span class="numm"
+              >61<span style="color: rgba(0, 0, 0, 0.413)">/100</span></span
+            >
+          </div>
+          <div class="visual">
+            <div class="reacticon">
+              <img src="assets/images/icon-visual.svg" />
+              <span style="color: rgb(1, 1, 207)">Visual</span>
+            </div>
+            <span class="numm"
+              >73<span style="color: rgba(0, 0, 0, 0.413)">/100</span></span
+            >
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
